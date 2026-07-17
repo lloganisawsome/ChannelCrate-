@@ -99,6 +99,8 @@
           title: theme.name,
           tag: included ? "Included" : "Store theme",
           detail: included ? "Ships with the app" : "Installed from Crate Market",
+          href: "themes/" + encodeURIComponent(theme.id) + ".crate",
+          action: included ? "Download included theme" : "Download theme",
           sort: theme.name
         });
       });

@@ -1,6 +1,6 @@
 # ChannelCrate `.crate` Format
 
-`.crate` is the shared ChannelCrate package extension for projects, plugins, presets, clips, playlists, bundles, and general packages. Theme crates are represented in the catalog for previews and store installs, but the app does not export themes.
+`.crate` is the shared ChannelCrate package extension for projects, plugins, themes, presets, clips, playlists, bundles, and general packages. Theme crates install skins from Crate Market, but the app does not export themes.
 
 The current implementation stores crates as readable JSON so creators can inspect and share them easily. The same manifest shape can later move inside a zipped archive without changing the user-facing verbs.
 
@@ -33,7 +33,7 @@ Every crate starts with:
 ## Crate Types
 
 - `general`: brand notes, stats, or mixed metadata.
-- `plugin`: built-in plugin definitions and rack states for all 80 current effects.
+- `plugin`: plugin definitions and rack states for the current 81-effect catalog.
 - `project`: library, decks, mixer, provider links, clips, and playlists.
 - `theme`: store-installed skins and visual preferences. This type is not exportable from the app.
 - `preset`: focused deck EQ, tempo, transport controls, and plugin states.
@@ -74,6 +74,10 @@ When possible, local audio and captured clips are embedded in JSON as base64:
 ```
 
 Provider links are stored as metadata and URLs/URIs only. Streaming-provider audio is not embedded or routed through the DSP engine.
+
+## Safety
+
+Crates are data packages. They install definitions, themes, presets, clips, playlists, and project metadata, but they do not execute shell scripts. Installer helper scripts live beside app downloads, not inside community crates.
 
 ## Future Archive Mode
 

@@ -1,0 +1,156 @@
+{
+  "format": "channelcrate.theme-manifest.v1",
+  "generatedAt": "2026-07-17T16:48:36.276Z",
+  "themes": [
+    {
+      "id": "classic",
+      "name": "Classic Rack",
+      "href": "themes/classic.crate"
+    },
+    {
+      "id": "neon",
+      "name": "Neon Orchard",
+      "href": "themes/neon.crate"
+    },
+    {
+      "id": "ice",
+      "name": "Ice Desk",
+      "href": "themes/ice.crate"
+    },
+    {
+      "id": "amber",
+      "name": "Amber CRT",
+      "href": "themes/amber.crate"
+    },
+    {
+      "id": "midnight",
+      "name": "Midnight Mixer",
+      "href": "themes/midnight.crate"
+    },
+    {
+      "id": "citrus",
+      "name": "Citrus Keys",
+      "href": "themes/citrus.crate"
+    },
+    {
+      "id": "graphite",
+      "name": "Graphite Lab",
+      "href": "themes/graphite.crate"
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade Glow",
+      "href": "themes/arcade.crate"
+    },
+    {
+      "id": "candy",
+      "name": "Candy Cable",
+      "href": "themes/candy.crate"
+    },
+    {
+      "id": "matrix",
+      "name": "Matrix Green",
+      "href": "themes/matrix.crate"
+    },
+    {
+      "id": "sunset",
+      "name": "Sunset Bus",
+      "href": "themes/sunset.crate"
+    },
+    {
+      "id": "ocean",
+      "name": "Ocean Console",
+      "href": "themes/ocean.crate"
+    },
+    {
+      "id": "berry",
+      "name": "Berry Patch",
+      "href": "themes/berry.crate"
+    },
+    {
+      "id": "vapor",
+      "name": "Vapor Grid",
+      "href": "themes/vapor.crate"
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal Grey",
+      "href": "themes/terminal.crate"
+    },
+    {
+      "id": "blueprint",
+      "name": "Blueprint",
+      "href": "themes/blueprint.crate"
+    },
+    {
+      "id": "blossom",
+      "name": "Blossom EQ",
+      "href": "themes/blossom.crate"
+    },
+    {
+      "id": "lava",
+      "name": "Lava Lamp",
+      "href": "themes/lava.crate"
+    },
+    {
+      "id": "frost",
+      "name": "Frost Byte",
+      "href": "themes/frost.crate"
+    },
+    {
+      "id": "mint",
+      "name": "Mint Board",
+      "href": "themes/mint.crate"
+    },
+    {
+      "id": "ultraviolet",
+      "name": "Ultraviolet",
+      "href": "themes/ultraviolet.crate"
+    },
+    {
+      "id": "noir",
+      "name": "Noir Tape",
+      "href": "themes/noir.crate"
+    },
+    {
+      "id": "solar",
+      "name": "Solarized",
+      "href": "themes/solar.crate"
+    },
+    {
+      "id": "lagoon",
+      "name": "Lagoon",
+      "href": "themes/lagoon.crate"
+    },
+    {
+      "id": "rosewire",
+      "name": "Rose Wire",
+      "href": "themes/rosewire.crate"
+    },
+    {
+      "id": "cockpit",
+      "name": "Cockpit",
+      "href": "themes/cockpit.crate"
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome Rack",
+      "href": "themes/chrome.crate"
+    },
+    {
+      "id": "plasma",
+      "name": "Plasma",
+      "href": "themes/plasma.crate"
+    },
+    {
+      "id": "mono",
+      "name": "Mono LCD",
+      "href": "themes/mono.crate"
+    },
+    {
+      "id": "cratewood",
+      "name": "Crate Wood",
+      "href": "themes/cratewood.crate"
+    }
+  ]
+}

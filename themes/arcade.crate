@@ -1,0 +1,34 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.0",
+    "name": "Arcade Glow Theme",
+    "crateType": "theme",
+    "createdAt": "2026-07-17T16:48:36.285Z",
+    "preview": {
+      "iconType": "theme",
+      "iconPath": "assets/crate-icons/theme.png",
+      "label": "Theme",
+      "detail": "Install Arcade Glow as a ChannelCrate skin."
+    },
+    "summary": "Install Arcade Glow as a ChannelCrate theme."
+  },
+  "contents": {
+    "themeApi": "channelcrate.theme.v1",
+    "skin": "arcade",
+    "theme": {
+      "id": "arcade",
+      "name": "Arcade Glow",
+      "storeOnly": false
+    },
+    "themes": [
+      {
+        "id": "arcade",
+        "name": "Arcade Glow",
+        "storeOnly": false
+      }
+    ]
+  }
+}

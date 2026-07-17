@@ -1,0 +1,34 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.0",
+    "name": "Ultraviolet Theme",
+    "crateType": "theme",
+    "createdAt": "2026-07-17T16:48:36.287Z",
+    "preview": {
+      "iconType": "theme",
+      "iconPath": "assets/crate-icons/theme.png",
+      "label": "Theme",
+      "detail": "Install Ultraviolet as a ChannelCrate skin."
+    },
+    "summary": "Install Ultraviolet as a ChannelCrate theme."
+  },
+  "contents": {
+    "themeApi": "channelcrate.theme.v1",
+    "skin": "ultraviolet",
+    "theme": {
+      "id": "ultraviolet",
+      "name": "Ultraviolet",
+      "storeOnly": false
+    },
+    "themes": [
+      {
+        "id": "ultraviolet",
+        "name": "Ultraviolet",
+        "storeOnly": false
+      }
+    ]
+  }
+}
