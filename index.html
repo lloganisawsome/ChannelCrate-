@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChannelCrate | Retro Modular Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="brand" href="#top" aria-label="ChannelCrate home">
+        <img src="assets/crate-icons/general.png" alt="">
+        <span>ChannelCrate</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#download">Download</a>
+        <a href="#market">Marketplace</a>
+        <a href="#crates">Crates</a>
+        <a href="#docs">Docs</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Desktop mix lab, crate store, plugin playground.</p>
+          <h1>ChannelCrate</h1>
+          <p class="hero-text">A retro modular music player for local files, provider decks, waveform prep, plugin windows, playlists, clip crates, and a free community marketplace.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#download">Download app</a>
+            <a class="button" href="#market">Browse market</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="Catalog stats">
+        <div>
+          <strong id="pluginCount">81</strong>
+          <span>market plugins, 5 included</span>
+        </div>
+        <div>
+          <strong id="themeCount">30</strong>
+          <span>market themes, 5 included</span>
+        </div>
+        <div>
+          <strong>8</strong>
+          <span>crate types</span>
+        </div>
+        <div>
+          <strong>20</strong>
+          <span>deck windows</span>
+        </div>
+      </section>
+
+      <section class="section" id="download">
+        <div class="section-head">
+          <p class="eyebrow">Download app</p>
+          <h2>Mac and Windows builds, one crate system.</h2>
+          <p>Grab the current packaged desktop prototype, then browse the free crate marketplace below.</p>
+        </div>
+        <div class="download-grid">
+          <a class="download-tile" href="downloads/ChannelCrate-0.1.0-arm64.dmg" download>
+            <img src="assets/crate-icons/project.png" alt="">
+            <span>Download for macOS</span>
+            <small>Apple Silicon DMG, 138 MB</small>
+          </a>
+          <a class="download-tile" href="downloads/ChannelCrate-0.1.0-arm64-mac.zip" download>
+            <img src="assets/crate-icons/clip.png" alt="">
+            <span>macOS ZIP</span>
+            <small>Apple Silicon app ZIP, 137 MB</small>
+          </a>
+          <a class="download-tile" href="downloads/ChannelCrate-Setup-0.1.0.exe" download>
+            <img src="assets/crate-icons/bundle.png" alt="">
+            <span>Download for Windows</span>
+            <small>64-bit installer EXE, 118 MB</small>
+          </a>
+          <a class="download-tile" href="downloads/ChannelCrate-Portable-0.1.0.exe" download>
+            <img src="assets/crate-icons/plugin.png" alt="">
+            <span>Windows portable</span>
+            <small>64-bit portable EXE, 118 MB</small>
+          </a>
+          <a class="download-tile" href="docs/crate-format.md">
+            <img src="assets/crate-icons/general.png" alt="">
+            <span>.crate format</span>
+            <small>Project, plugin, preset, clip, playlist, bundle</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="section market-section" id="market">
+        <div class="section-head">
+          <p class="eyebrow">Crate Market</p>
+          <h2>Free plugins, store-installed themes, and future community crates.</h2>
+          <p>The marketplace is static here, but it is shaped like the future ChannelCrate site: search, categories, theme previews, and clear export rules.</p>
+        </div>
+        <div class="market-toolbar">
+          <label>
+            <span>Search market</span>
+            <input id="marketSearch" type="search" placeholder="filter plugins or themes">
+          </label>
+          <div class="tab-row" role="tablist" aria-label="Marketplace filters">
+            <button class="is-active" data-market-filter="all" type="button">All</button>
+            <button data-market-filter="plugin" type="button">Plugins</button>
+            <button data-market-filter="theme" type="button">Themes</button>
+          </div>
+        </div>
+        <div class="market-grid" id="marketGrid"></div>
+      </section>
+
+      <section class="section" id="crates">
+        <div class="section-head">
+          <p class="eyebrow">Crate system</p>
+          <h2>Uncrate, Recrate, Quick Crate, and Crate Locker.</h2>
+          <p>Users can export every crate type except themes. Themes are installed from the market so the app can grow a curated visual library without turning theme files into random exports.</p>
+        </div>
+        <div class="crate-grid" id="crateGrid"></div>
+      </section>
+
+      <section class="section split-section" id="docs">
+        <div>
+          <p class="eyebrow">For builders</p>
+          <h2>Community plugin store path.</h2>
+          <p>Plugins are catalog entries now, but the store is ready for the `.crate` idea: free downloads, creator pages, version history, preset packs, clip packs, playlist crates, and bundled project crates.</p>
+        </div>
+        <div class="roadmap-list">
+          <span>Plugin API manifest</span>
+          <span>Signed community crates</span>
+          <span>Theme install channel</span>
+          <span>Crate Link sharing</span>
+          <span>Creator profiles</span>
+          <span>Version history</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="assets/crate-icons/general.png" alt="">
+      <span>ChannelCrate market prototype. Static, free, and ready to expand.</span>
+    </footer>
+
+    <script src="src/catalog.js"></script>
+    <script src="site.js"></script>
+  </body>
+</html>
