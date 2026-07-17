@@ -1,0 +1,1081 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.1",
+    "name": "All Plugins Crate",
+    "crateType": "bundle",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "bundle",
+      "iconPath": "assets/crate-icons/bundle.png",
+      "label": "Bundle",
+      "detail": "Install every current ChannelCrate marketplace plugin."
+    },
+    "summary": "Install every current ChannelCrate marketplace plugin."
+  },
+  "contents": {
+    "bundleApi": "channelcrate.bundle.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "packId": "all-plugins",
+    "packName": "All Plugins Crate",
+    "plugins": [
+      {
+        "id": "tape",
+        "name": "Tape Warmth",
+        "short": "TAPE",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "crush",
+        "name": "Bit Crusher",
+        "short": "CRSH",
+        "engine": "crush",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "echo",
+        "name": "Sync Echo",
+        "short": "ECHO",
+        "engine": "echo",
+        "category": "Delay",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "space",
+        "name": "Room Verb",
+        "short": "ROOM",
+        "engine": "space",
+        "category": "Space",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "width",
+        "name": "Stereo Wide",
+        "short": "WIDE",
+        "engine": "width",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "pump",
+        "name": "Pump Gate",
+        "short": "PUMP",
+        "engine": "pump",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "bass",
+        "name": "Bass Bloom",
+        "short": "BASS",
+        "engine": "bass",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "air",
+        "name": "Air Lift",
+        "short": "AIR",
+        "engine": "air",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "filter",
+        "name": "DJ Filter",
+        "short": "FILT",
+        "engine": "filter",
+        "category": "Filter",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "phone",
+        "name": "Phone Box",
+        "short": "PHON",
+        "engine": "phone",
+        "category": "Filter",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "wobble",
+        "name": "Wobble LFO",
+        "short": "WOB",
+        "engine": "wobble",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "tremolo",
+        "name": "Tremolo",
+        "short": "TREM",
+        "engine": "tremolo",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "phaser",
+        "name": "Phase Sweep",
+        "short": "PHAS",
+        "engine": "phaser",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "notch",
+        "name": "Notch Carve",
+        "short": "NOTC",
+        "engine": "notch",
+        "category": "Filter",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "duck",
+        "name": "Auto Duck",
+        "short": "DUCK",
+        "engine": "duck",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "compressor",
+        "name": "Studio Compressor",
+        "short": "COMP",
+        "engine": "compressor",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "spark",
+        "name": "Transient Spark",
+        "short": "SPRK",
+        "engine": "spark",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "chorus",
+        "name": "Wide Chorus",
+        "short": "CHOR",
+        "engine": "chorus",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "vinyl",
+        "name": "Vinyl Drift",
+        "short": "VNYL",
+        "engine": "vinyl",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "gate",
+        "name": "Rhythm Gate",
+        "short": "GATE",
+        "engine": "gate",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "visualizer",
+        "name": "Visualizer Tap",
+        "short": "VIS",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "glue",
+        "name": "Glue Comp",
+        "short": "GLUE",
+        "engine": "pump",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "limiter",
+        "name": "Brick Limit",
+        "short": "LIM",
+        "engine": "spark",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "softclip",
+        "name": "Soft Clip",
+        "short": "CLIP",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "sub",
+        "name": "Sub Forge",
+        "short": "SUB",
+        "engine": "bass",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "lowcut",
+        "name": "Low Cut",
+        "short": "LCUT",
+        "engine": "phone",
+        "category": "Filter",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "highcut",
+        "name": "High Cut",
+        "short": "HCUT",
+        "engine": "filter",
+        "category": "Filter",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "formant",
+        "name": "Formant Tilt",
+        "short": "FORM",
+        "engine": "phone",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "resonator",
+        "name": "Box Resonator",
+        "short": "RESO",
+        "engine": "phaser",
+        "category": "Filter",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "comb",
+        "name": "Comb Teeth",
+        "short": "COMB",
+        "engine": "chorus",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "shimmer",
+        "name": "Shimmer Wash",
+        "short": "SHIM",
+        "engine": "space",
+        "category": "Space",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "reverseverb",
+        "name": "Reverse Verb",
+        "short": "RVRB",
+        "engine": "space",
+        "category": "Space",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "slap",
+        "name": "Slap Delay",
+        "short": "SLAP",
+        "engine": "echo",
+        "category": "Delay",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "pingpong",
+        "name": "Ping Pong",
+        "short": "PING",
+        "engine": "echo",
+        "category": "Delay",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "granular",
+        "name": "Grain Spray",
+        "short": "GRAN",
+        "engine": "crush",
+        "category": "Texture",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "stutter",
+        "name": "Beat Stutter",
+        "short": "STUT",
+        "engine": "gate",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "repeater",
+        "name": "Micro Repeat",
+        "short": "RPT",
+        "engine": "echo",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "freezer",
+        "name": "Freeze Frame",
+        "short": "FRZ",
+        "engine": "space",
+        "category": "Texture",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "riser",
+        "name": "Riser Sweep",
+        "short": "RISE",
+        "engine": "wobble",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "downsampler",
+        "name": "Downsampler",
+        "short": "DSMP",
+        "engine": "crush",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "cassette",
+        "name": "Cassette Deck",
+        "short": "CASS",
+        "engine": "vinyl",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "wow",
+        "name": "Wow Drift",
+        "short": "WOW",
+        "engine": "vinyl",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "flutter",
+        "name": "Flutter Trim",
+        "short": "FLUT",
+        "engine": "chorus",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "noise",
+        "name": "Noise Floor",
+        "short": "NOIS",
+        "engine": "vinyl",
+        "category": "Texture",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "vinylstop",
+        "name": "Vinyl Stop",
+        "short": "STOP",
+        "engine": "filter",
+        "category": "DJ",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "sidechain",
+        "name": "Sidechain Pump",
+        "short": "SIDE",
+        "engine": "pump",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "transient",
+        "name": "Transient Pop",
+        "short": "TRAN",
+        "engine": "spark",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "stereoflip",
+        "name": "Stereo Flip",
+        "short": "FLIP",
+        "engine": "width",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "mono",
+        "name": "Mono Maker",
+        "short": "MONO",
+        "engine": "phone",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "widen2",
+        "name": "Mega Width",
+        "short": "MWID",
+        "engine": "width",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "haas",
+        "name": "Haas Shift",
+        "short": "HAAS",
+        "engine": "width",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "autopan",
+        "name": "Auto Pan",
+        "short": "PAN",
+        "engine": "tremolo",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "trem2",
+        "name": "Chop Trem",
+        "short": "CHOP",
+        "engine": "gate",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "ringmod",
+        "name": "Ring Mod",
+        "short": "RING",
+        "engine": "crush",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "freqshift",
+        "name": "Freq Shift",
+        "short": "FSFT",
+        "engine": "phaser",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "vocoder",
+        "name": "Vocoder Mask",
+        "short": "VOCO",
+        "engine": "phone",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "robot",
+        "name": "Robot Voice",
+        "short": "ROBO",
+        "engine": "crush",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "chorus2",
+        "name": "String Chorus",
+        "short": "STRG",
+        "engine": "chorus",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "ensemble",
+        "name": "Ensemble Stack",
+        "short": "ENS",
+        "engine": "chorus",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "flanger",
+        "name": "Jet Flanger",
+        "short": "JET",
+        "engine": "phaser",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "doubler",
+        "name": "Vocal Doubler",
+        "short": "DBL",
+        "engine": "width",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "exciter",
+        "name": "Top Exciter",
+        "short": "EXCT",
+        "engine": "air",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "deesser",
+        "name": "De-Esser",
+        "short": "DESS",
+        "engine": "notch",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "tilt",
+        "name": "Tilt EQ",
+        "short": "TILT",
+        "engine": "spark",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "mudcut",
+        "name": "Mud Cutter",
+        "short": "MUD",
+        "engine": "notch",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "bass2",
+        "name": "Club Low",
+        "short": "CLUB",
+        "engine": "bass",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "kicktight",
+        "name": "Kick Tight",
+        "short": "KICK",
+        "engine": "spark",
+        "category": "Drums",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "snarepop",
+        "name": "Snare Pop",
+        "short": "SNAR",
+        "engine": "spark",
+        "category": "Drums",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "clapwide",
+        "name": "Clap Wide",
+        "short": "CLAP",
+        "engine": "width",
+        "category": "Drums",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "lofiglow",
+        "name": "Lo-Fi Glow",
+        "short": "GLOW",
+        "engine": "tape",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "dirt",
+        "name": "Dirt Box",
+        "short": "DIRT",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "fuzz",
+        "name": "Pixel Fuzz",
+        "short": "FUZZ",
+        "engine": "crush",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "overdrive",
+        "name": "Overdrive",
+        "short": "ODRV",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "tube",
+        "name": "Tube Heat",
+        "short": "TUBE",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "slicer",
+        "name": "Step Slicer",
+        "short": "SLIC",
+        "engine": "gate",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "euclid",
+        "name": "Euclid Gate",
+        "short": "EUCL",
+        "engine": "gate",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "arpgate",
+        "name": "Arp Gate",
+        "short": "ARP",
+        "engine": "tremolo",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "meterbridge",
+        "name": "Meter Bridge",
+        "short": "MTR",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "vectorscope",
+        "name": "Vectorscope",
+        "short": "VECT",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "spectrograph",
+        "name": "Spectrograph",
+        "short": "SPEC",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "beatlight",
+        "name": "Beat Light",
+        "short": "LITE",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ],
+    "themes": []
+  }
+}

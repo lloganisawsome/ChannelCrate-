@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-07-17T20:05:04.059Z",
+  "packs": [
+    {
+      "id": "all-plugins",
+      "name": "All Plugins Crate",
+      "file": "all-plugins.crate",
+      "pluginCount": 81,
+      "themeCount": 0,
+      "summary": "Install every current ChannelCrate marketplace plugin."
+    },
+    {
+      "id": "all-themes",
+      "name": "All Themes Crate",
+      "file": "all-themes.crate",
+      "pluginCount": 0,
+      "themeCount": 30,
+      "summary": "Install every current ChannelCrate marketplace theme."
+    },
+    {
+      "id": "everything",
+      "name": "Everything Crate",
+      "file": "everything.crate",
+      "pluginCount": 81,
+      "themeCount": 30,
+      "summary": "Install every current ChannelCrate marketplace plugin and theme."
+    },
+    {
+      "id": "lofi-color-lab",
+      "name": "Lo-Fi Color Lab",
+      "file": "lofi-color-lab.crate",
+      "pluginCount": 16,
+      "themeCount": 0,
+      "summary": "Tape, dust, drive, grain, bit-crush, and texture effects."
+    },
+    {
+      "id": "dynamics-master-pack",
+      "name": "Dynamics Master Pack",
+      "file": "dynamics-master-pack.crate",
+      "pluginCount": 17,
+      "themeCount": 0,
+      "summary": "Compressors, transient tools, punch shapers, low-end and tone helpers."
+    },
+    {
+      "id": "vocal-studio-pack",
+      "name": "Vocal Studio Pack",
+      "file": "vocal-studio-pack.crate",
+      "pluginCount": 10,
+      "themeCount": 0,
+      "summary": "Voice shaping, de-essing, width, doubling, and formant tools."
+    },
+    {
+      "id": "motion-delay-pack",
+      "name": "Motion + Delay Pack",
+      "file": "motion-delay-pack.crate",
+      "pluginCount": 26,
+      "themeCount": 0,
+      "summary": "Echoes, verbs, gates, modulation, movement, and performance rhythm effects."
+    },
+    {
+      "id": "visual-metering-pack",
+      "name": "Visual Metering Pack",
+      "file": "visual-metering-pack.crate",
+      "pluginCount": 5,
+      "themeCount": 0,
+      "summary": "Visualizer Tap, Meter Bridge, Vectorscope, Spectrograph, and Beat Light."
+    }
+  ]
+}

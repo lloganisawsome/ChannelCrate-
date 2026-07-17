@@ -14,7 +14,7 @@ Every crate starts with:
     "format": "channelcrate.crate",
     "formatVersion": 1,
     "app": "ChannelCrate",
-    "appVersion": "0.1.0",
+    "appVersion": "0.1.1",
     "name": "Quick Crate",
     "crateType": "project",
     "createdAt": "2026-07-16T00:00:00.000Z",
@@ -40,6 +40,8 @@ Every crate starts with:
 - `clip`: selected captured clip with WAV audio when available.
 - `playlist`: active playlist and its referenced local/provider/clip items.
 - `bundle`: multiple crate categories together.
+
+Marketplace bundles live in `site/bundles/`. Current bundles include all plugins, all themes, everything, and themed plugin packs such as Lo-Fi Color Lab, Dynamics Master Pack, Vocal Studio Pack, Motion + Delay Pack, and Visual Metering Pack.
 
 ## Type Icons
 

@@ -128,6 +128,23 @@
     return installedThemeIds.indexOf(theme.id) >= 0;
   });
 
+  function countPlugins(categories) {
+    return marketplacePluginDefs.filter(function (plugin) {
+      return categories.indexOf(plugin.category) >= 0;
+    }).length;
+  }
+
+  var marketplaceBundleDefs = [
+    { id: "all-plugins", name: "All Plugins Crate", href: "bundles/all-plugins.crate", icon: "assets/crate-icons/plugin.png", tag: marketplacePluginDefs.length + " plugins", detail: "Every current ChannelCrate market plugin in one install crate." },
+    { id: "all-themes", name: "All Themes Crate", href: "bundles/all-themes.crate", icon: "assets/crate-icons/theme.png", tag: marketplaceThemeDefs.length + " themes", detail: "Every current ChannelCrate market skin in one install crate." },
+    { id: "everything", name: "Everything Crate", href: "bundles/everything.crate", icon: "assets/crate-icons/bundle.png", tag: marketplacePluginDefs.length + marketplaceThemeDefs.length + " items", detail: "All plugins and all themes bundled together." },
+    { id: "lofi-color-lab", name: "Lo-Fi Color Lab", href: "bundles/lofi-color-lab.crate", icon: "assets/crate-icons/plugin.png", tag: countPlugins(["Lo-Fi", "Color", "Texture"]) + " plugins", detail: "Tape, dust, drive, grain, bit-crush, and texture effects." },
+    { id: "dynamics-master-pack", name: "Dynamics Master Pack", href: "bundles/dynamics-master-pack.crate", icon: "assets/crate-icons/preset.png", tag: countPlugins(["Dynamics", "Drums", "Tone"]) + " plugins", detail: "Compressors, transient tools, punch shapers, low-end and tone helpers." },
+    { id: "vocal-studio-pack", name: "Vocal Studio Pack", href: "bundles/vocal-studio-pack.crate", icon: "assets/crate-icons/clip.png", tag: countPlugins(["Vocal", "Stereo"]) + " plugins", detail: "Voice shaping, de-essing, width, doubling, and formant tools." },
+    { id: "motion-delay-pack", name: "Motion + Delay Pack", href: "bundles/motion-delay-pack.crate", icon: "assets/crate-icons/plugin.png", tag: countPlugins(["Motion", "Delay", "Space", "Mod", "Rhythm"]) + " plugins", detail: "Echoes, verbs, gates, modulation, movement, and performance rhythm effects." },
+    { id: "visual-metering-pack", name: "Visual Metering Pack", href: "bundles/visual-metering-pack.crate", icon: "assets/crate-icons/general.png", tag: countPlugins(["Visual"]) + " plugins", detail: "Visualizer Tap, Meter Bridge, Vectorscope, Spectrograph, and Beat Light." }
+  ];
+
   var crateTypes = [
     { id: "general", label: "General", icon: "assets/crate-icons/general.png", detail: "brand, notes, or mixed metadata", exportable: true },
     { id: "plugin", label: "Plugin", icon: "assets/crate-icons/plugin.png", detail: "effect modules and rack settings", exportable: true },
@@ -146,6 +163,7 @@
     themeDefs: themeDefs,
     marketplaceThemeDefs: marketplaceThemeDefs,
     installedThemeIds: installedThemeIds,
+    marketplaceBundleDefs: marketplaceBundleDefs,
     crateTypes: crateTypes
   };
 })();

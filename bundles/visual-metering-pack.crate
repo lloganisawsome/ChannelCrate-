@@ -1,0 +1,93 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.1",
+    "name": "Visual Metering Pack",
+    "crateType": "bundle",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "bundle",
+      "iconPath": "assets/crate-icons/bundle.png",
+      "label": "Bundle",
+      "detail": "Visualizer Tap, Meter Bridge, Vectorscope, Spectrograph, and Beat Light."
+    },
+    "summary": "Visualizer Tap, Meter Bridge, Vectorscope, Spectrograph, and Beat Light."
+  },
+  "contents": {
+    "bundleApi": "channelcrate.bundle.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "packId": "visual-metering-pack",
+    "packName": "Visual Metering Pack",
+    "plugins": [
+      {
+        "id": "visualizer",
+        "name": "Visualizer Tap",
+        "short": "VIS",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "meterbridge",
+        "name": "Meter Bridge",
+        "short": "MTR",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "vectorscope",
+        "name": "Vectorscope",
+        "short": "VECT",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "spectrograph",
+        "name": "Spectrograph",
+        "short": "SPEC",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "beatlight",
+        "name": "Beat Light",
+        "short": "LITE",
+        "engine": "visualizer",
+        "category": "Visual",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ],
+    "themes": []
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.1",
+    "name": "Dynamics Master Pack",
+    "crateType": "bundle",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "bundle",
+      "iconPath": "assets/crate-icons/bundle.png",
+      "label": "Bundle",
+      "detail": "Compressors, transient tools, punch shapers, low-end and tone helpers."
+    },
+    "summary": "Compressors, transient tools, punch shapers, low-end and tone helpers."
+  },
+  "contents": {
+    "bundleApi": "channelcrate.bundle.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "packId": "dynamics-master-pack",
+    "packName": "Dynamics Master Pack",
+    "plugins": [
+      {
+        "id": "bass",
+        "name": "Bass Bloom",
+        "short": "BASS",
+        "engine": "bass",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "air",
+        "name": "Air Lift",
+        "short": "AIR",
+        "engine": "air",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "duck",
+        "name": "Auto Duck",
+        "short": "DUCK",
+        "engine": "duck",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "compressor",
+        "name": "Studio Compressor",
+        "short": "COMP",
+        "engine": "compressor",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "spark",
+        "name": "Transient Spark",
+        "short": "SPRK",
+        "engine": "spark",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "glue",
+        "name": "Glue Comp",
+        "short": "GLUE",
+        "engine": "pump",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "limiter",
+        "name": "Brick Limit",
+        "short": "LIM",
+        "engine": "spark",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "sub",
+        "name": "Sub Forge",
+        "short": "SUB",
+        "engine": "bass",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "sidechain",
+        "name": "Sidechain Pump",
+        "short": "SIDE",
+        "engine": "pump",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "transient",
+        "name": "Transient Pop",
+        "short": "TRAN",
+        "engine": "spark",
+        "category": "Dynamics",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "exciter",
+        "name": "Top Exciter",
+        "short": "EXCT",
+        "engine": "air",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "tilt",
+        "name": "Tilt EQ",
+        "short": "TILT",
+        "engine": "spark",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "mudcut",
+        "name": "Mud Cutter",
+        "short": "MUD",
+        "engine": "notch",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "bass2",
+        "name": "Club Low",
+        "short": "CLUB",
+        "engine": "bass",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "kicktight",
+        "name": "Kick Tight",
+        "short": "KICK",
+        "engine": "spark",
+        "category": "Drums",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "snarepop",
+        "name": "Snare Pop",
+        "short": "SNAR",
+        "engine": "spark",
+        "category": "Drums",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "clapwide",
+        "name": "Clap Wide",
+        "short": "CLAP",
+        "engine": "width",
+        "category": "Drums",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ],
+    "themes": []
+  }
+}

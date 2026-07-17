@@ -1,0 +1,178 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.1",
+    "name": "All Themes Crate",
+    "crateType": "bundle",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "bundle",
+      "iconPath": "assets/crate-icons/bundle.png",
+      "label": "Bundle",
+      "detail": "Install every current ChannelCrate marketplace theme."
+    },
+    "summary": "Install every current ChannelCrate marketplace theme."
+  },
+  "contents": {
+    "bundleApi": "channelcrate.bundle.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "packId": "all-themes",
+    "packName": "All Themes Crate",
+    "plugins": [],
+    "themes": [
+      {
+        "id": "classic",
+        "name": "Classic Rack",
+        "storeOnly": false
+      },
+      {
+        "id": "neon",
+        "name": "Neon Orchard",
+        "storeOnly": false
+      },
+      {
+        "id": "ice",
+        "name": "Ice Desk",
+        "storeOnly": false
+      },
+      {
+        "id": "amber",
+        "name": "Amber CRT",
+        "storeOnly": false
+      },
+      {
+        "id": "midnight",
+        "name": "Midnight Mixer",
+        "storeOnly": false
+      },
+      {
+        "id": "citrus",
+        "name": "Citrus Keys",
+        "storeOnly": false
+      },
+      {
+        "id": "graphite",
+        "name": "Graphite Lab",
+        "storeOnly": false
+      },
+      {
+        "id": "arcade",
+        "name": "Arcade Glow",
+        "storeOnly": false
+      },
+      {
+        "id": "candy",
+        "name": "Candy Cable",
+        "storeOnly": false
+      },
+      {
+        "id": "matrix",
+        "name": "Matrix Green",
+        "storeOnly": false
+      },
+      {
+        "id": "sunset",
+        "name": "Sunset Bus",
+        "storeOnly": false
+      },
+      {
+        "id": "ocean",
+        "name": "Ocean Console",
+        "storeOnly": false
+      },
+      {
+        "id": "berry",
+        "name": "Berry Patch",
+        "storeOnly": false
+      },
+      {
+        "id": "vapor",
+        "name": "Vapor Grid",
+        "storeOnly": false
+      },
+      {
+        "id": "terminal",
+        "name": "Terminal Grey",
+        "storeOnly": false
+      },
+      {
+        "id": "blueprint",
+        "name": "Blueprint",
+        "storeOnly": false
+      },
+      {
+        "id": "blossom",
+        "name": "Blossom EQ",
+        "storeOnly": false
+      },
+      {
+        "id": "lava",
+        "name": "Lava Lamp",
+        "storeOnly": false
+      },
+      {
+        "id": "frost",
+        "name": "Frost Byte",
+        "storeOnly": false
+      },
+      {
+        "id": "mint",
+        "name": "Mint Board",
+        "storeOnly": false
+      },
+      {
+        "id": "ultraviolet",
+        "name": "Ultraviolet",
+        "storeOnly": false
+      },
+      {
+        "id": "noir",
+        "name": "Noir Tape",
+        "storeOnly": false
+      },
+      {
+        "id": "solar",
+        "name": "Solarized",
+        "storeOnly": false
+      },
+      {
+        "id": "lagoon",
+        "name": "Lagoon",
+        "storeOnly": false
+      },
+      {
+        "id": "rosewire",
+        "name": "Rose Wire",
+        "storeOnly": false
+      },
+      {
+        "id": "cockpit",
+        "name": "Cockpit",
+        "storeOnly": false
+      },
+      {
+        "id": "chrome",
+        "name": "Chrome Rack",
+        "storeOnly": false
+      },
+      {
+        "id": "plasma",
+        "name": "Plasma",
+        "storeOnly": false
+      },
+      {
+        "id": "mono",
+        "name": "Mono LCD",
+        "storeOnly": false
+      },
+      {
+        "id": "cratewood",
+        "name": "Crate Wood",
+        "storeOnly": false
+      }
+    ]
+  }
+}

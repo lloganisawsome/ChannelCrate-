@@ -340,6 +340,61 @@ button.is-active {
   background: #16120f;
 }
 
+.bundle-shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.bundle-card {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid rgba(200, 243, 108, 0.45);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(200, 243, 108, 0.12), transparent 46%),
+    var(--panel);
+  box-shadow: 0 18px 40px var(--shadow);
+}
+
+.bundle-card img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.bundle-card strong {
+  display: block;
+  overflow-wrap: anywhere;
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.bundle-card small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.bundle-card .tag {
+  align-self: stretch;
+}
+
+.bundle-card .market-action,
+.bundle-card .tag {
+  grid-column: 1 / -1;
+}
+
 .market-toolbar {
   display: grid;
   grid-template-columns: minmax(220px, 1fr) auto;
@@ -406,7 +461,8 @@ button.is-active {
 }
 
 .market-card .tag,
-.crate-card .tag {
+.crate-card .tag,
+.bundle-card .tag {
   display: inline-flex;
   align-items: center;
   min-height: 22px;

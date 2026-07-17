@@ -1,0 +1,236 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.1",
+    "name": "Lo-Fi Color Lab",
+    "crateType": "bundle",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "bundle",
+      "iconPath": "assets/crate-icons/bundle.png",
+      "label": "Bundle",
+      "detail": "Tape, dust, drive, grain, bit-crush, and texture effects."
+    },
+    "summary": "Tape, dust, drive, grain, bit-crush, and texture effects."
+  },
+  "contents": {
+    "bundleApi": "channelcrate.bundle.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "packId": "lofi-color-lab",
+    "packName": "Lo-Fi Color Lab",
+    "plugins": [
+      {
+        "id": "tape",
+        "name": "Tape Warmth",
+        "short": "TAPE",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "crush",
+        "name": "Bit Crusher",
+        "short": "CRSH",
+        "engine": "crush",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "vinyl",
+        "name": "Vinyl Drift",
+        "short": "VNYL",
+        "engine": "vinyl",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "softclip",
+        "name": "Soft Clip",
+        "short": "CLIP",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "granular",
+        "name": "Grain Spray",
+        "short": "GRAN",
+        "engine": "crush",
+        "category": "Texture",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "freezer",
+        "name": "Freeze Frame",
+        "short": "FRZ",
+        "engine": "space",
+        "category": "Texture",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "downsampler",
+        "name": "Downsampler",
+        "short": "DSMP",
+        "engine": "crush",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "cassette",
+        "name": "Cassette Deck",
+        "short": "CASS",
+        "engine": "vinyl",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "wow",
+        "name": "Wow Drift",
+        "short": "WOW",
+        "engine": "vinyl",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "flutter",
+        "name": "Flutter Trim",
+        "short": "FLUT",
+        "engine": "chorus",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "noise",
+        "name": "Noise Floor",
+        "short": "NOIS",
+        "engine": "vinyl",
+        "category": "Texture",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "lofiglow",
+        "name": "Lo-Fi Glow",
+        "short": "GLOW",
+        "engine": "tape",
+        "category": "Lo-Fi",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "dirt",
+        "name": "Dirt Box",
+        "short": "DIRT",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "fuzz",
+        "name": "Pixel Fuzz",
+        "short": "FUZZ",
+        "engine": "crush",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "overdrive",
+        "name": "Overdrive",
+        "short": "ODRV",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "tube",
+        "name": "Tube Heat",
+        "short": "TUBE",
+        "engine": "tape",
+        "category": "Color",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ],
+    "themes": []
+  }
+}

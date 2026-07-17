@@ -4,6 +4,7 @@
   var catalog = window.ChannelCrateCatalog || {};
   var plugins = catalog.marketplacePluginDefs || catalog.pluginDefs || [];
   var themes = catalog.marketplaceThemeDefs || catalog.themeDefs || [];
+  var bundles = catalog.marketplaceBundleDefs || [];
   var installedPluginIds = catalog.installedPluginIds || (catalog.pluginDefs || []).map(function (plugin) { return plugin.id; });
   var installedThemeIds = catalog.installedThemeIds || (catalog.themeDefs || []).map(function (theme) { return theme.id; });
   var crateTypes = catalog.crateTypes || [];
@@ -44,6 +45,7 @@
   };
 
   var els = {
+    bundleShelf: document.getElementById("bundleShelf"),
     marketGrid: document.getElementById("marketGrid"),
     crateGrid: document.getElementById("crateGrid"),
     search: document.getElementById("marketSearch"),
@@ -114,6 +116,20 @@
     els.marketGrid.innerHTML = rows.map(renderMarketCard).join("");
   }
 
+  function renderBundles() {
+    if (!els.bundleShelf) return;
+    els.bundleShelf.innerHTML = bundles.map(function (bundle) {
+      return [
+        '<article class="bundle-card">',
+        '<img src="' + escapeHtml(bundle.icon || "assets/crate-icons/bundle.png") + '" alt="">',
+        '<div><strong>' + escapeHtml(bundle.name) + '</strong><small>' + escapeHtml(bundle.detail) + "</small></div>",
+        '<span class="tag">' + escapeHtml(bundle.tag || "Bundle") + "</span>",
+        '<a class="market-action" href="' + escapeHtml(bundle.href) + '" download>Download</a>',
+        "</article>"
+      ].join("");
+    }).join("");
+  }
+
   function renderMarketCard(row) {
     var swatch = "";
     if (row.type === "theme") {
@@ -171,6 +187,7 @@
     });
   }
 
+  renderBundles();
   renderMarket();
   renderCrates();
 })();

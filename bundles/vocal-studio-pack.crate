@@ -1,0 +1,158 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.1",
+    "name": "Vocal Studio Pack",
+    "crateType": "bundle",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "bundle",
+      "iconPath": "assets/crate-icons/bundle.png",
+      "label": "Bundle",
+      "detail": "Voice shaping, de-essing, width, doubling, and formant tools."
+    },
+    "summary": "Voice shaping, de-essing, width, doubling, and formant tools."
+  },
+  "contents": {
+    "bundleApi": "channelcrate.bundle.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "packId": "vocal-studio-pack",
+    "packName": "Vocal Studio Pack",
+    "plugins": [
+      {
+        "id": "width",
+        "name": "Stereo Wide",
+        "short": "WIDE",
+        "engine": "width",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "formant",
+        "name": "Formant Tilt",
+        "short": "FORM",
+        "engine": "phone",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "stereoflip",
+        "name": "Stereo Flip",
+        "short": "FLIP",
+        "engine": "width",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "mono",
+        "name": "Mono Maker",
+        "short": "MONO",
+        "engine": "phone",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "widen2",
+        "name": "Mega Width",
+        "short": "MWID",
+        "engine": "width",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "haas",
+        "name": "Haas Shift",
+        "short": "HAAS",
+        "engine": "width",
+        "category": "Stereo",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "vocoder",
+        "name": "Vocoder Mask",
+        "short": "VOCO",
+        "engine": "phone",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "robot",
+        "name": "Robot Voice",
+        "short": "ROBO",
+        "engine": "crush",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "doubler",
+        "name": "Vocal Doubler",
+        "short": "DBL",
+        "engine": "width",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "deesser",
+        "name": "De-Esser",
+        "short": "DESS",
+        "engine": "notch",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ],
+    "themes": []
+  }
+}

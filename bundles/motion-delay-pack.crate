@@ -1,0 +1,366 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.1",
+    "name": "Motion + Delay Pack",
+    "crateType": "bundle",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "bundle",
+      "iconPath": "assets/crate-icons/bundle.png",
+      "label": "Bundle",
+      "detail": "Echoes, verbs, gates, modulation, movement, and performance rhythm effects."
+    },
+    "summary": "Echoes, verbs, gates, modulation, movement, and performance rhythm effects."
+  },
+  "contents": {
+    "bundleApi": "channelcrate.bundle.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "packId": "motion-delay-pack",
+    "packName": "Motion + Delay Pack",
+    "plugins": [
+      {
+        "id": "echo",
+        "name": "Sync Echo",
+        "short": "ECHO",
+        "engine": "echo",
+        "category": "Delay",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "space",
+        "name": "Room Verb",
+        "short": "ROOM",
+        "engine": "space",
+        "category": "Space",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "pump",
+        "name": "Pump Gate",
+        "short": "PUMP",
+        "engine": "pump",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "wobble",
+        "name": "Wobble LFO",
+        "short": "WOB",
+        "engine": "wobble",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "tremolo",
+        "name": "Tremolo",
+        "short": "TREM",
+        "engine": "tremolo",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "phaser",
+        "name": "Phase Sweep",
+        "short": "PHAS",
+        "engine": "phaser",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "chorus",
+        "name": "Wide Chorus",
+        "short": "CHOR",
+        "engine": "chorus",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "gate",
+        "name": "Rhythm Gate",
+        "short": "GATE",
+        "engine": "gate",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "comb",
+        "name": "Comb Teeth",
+        "short": "COMB",
+        "engine": "chorus",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "shimmer",
+        "name": "Shimmer Wash",
+        "short": "SHIM",
+        "engine": "space",
+        "category": "Space",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "reverseverb",
+        "name": "Reverse Verb",
+        "short": "RVRB",
+        "engine": "space",
+        "category": "Space",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "slap",
+        "name": "Slap Delay",
+        "short": "SLAP",
+        "engine": "echo",
+        "category": "Delay",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "pingpong",
+        "name": "Ping Pong",
+        "short": "PING",
+        "engine": "echo",
+        "category": "Delay",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "stutter",
+        "name": "Beat Stutter",
+        "short": "STUT",
+        "engine": "gate",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "repeater",
+        "name": "Micro Repeat",
+        "short": "RPT",
+        "engine": "echo",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "riser",
+        "name": "Riser Sweep",
+        "short": "RISE",
+        "engine": "wobble",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "autopan",
+        "name": "Auto Pan",
+        "short": "PAN",
+        "engine": "tremolo",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "trem2",
+        "name": "Chop Trem",
+        "short": "CHOP",
+        "engine": "gate",
+        "category": "Motion",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "ringmod",
+        "name": "Ring Mod",
+        "short": "RING",
+        "engine": "crush",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "freqshift",
+        "name": "Freq Shift",
+        "short": "FSFT",
+        "engine": "phaser",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "chorus2",
+        "name": "String Chorus",
+        "short": "STRG",
+        "engine": "chorus",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "ensemble",
+        "name": "Ensemble Stack",
+        "short": "ENS",
+        "engine": "chorus",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "flanger",
+        "name": "Jet Flanger",
+        "short": "JET",
+        "engine": "phaser",
+        "category": "Mod",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "slicer",
+        "name": "Step Slicer",
+        "short": "SLIC",
+        "engine": "gate",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "euclid",
+        "name": "Euclid Gate",
+        "short": "EUCL",
+        "engine": "gate",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      },
+      {
+        "id": "arpgate",
+        "name": "Arp Gate",
+        "short": "ARP",
+        "engine": "tremolo",
+        "category": "Rhythm",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ],
+    "themes": []
+  }
+}
