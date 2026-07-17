@@ -53,6 +53,7 @@
 
   if (els.pluginCount) els.pluginCount.textContent = String(plugins.length);
   if (els.themeCount) els.themeCount.textContent = String(themes.length);
+  wireReleaseDownloads();
 
   document.querySelectorAll("[data-market-filter]").forEach(function (button) {
     button.addEventListener("click", function () {
@@ -79,9 +80,12 @@
         var included = installedPluginIds.indexOf(plugin.id) >= 0;
         rows.push({
           type: "plugin",
+          id: plugin.id,
           title: plugin.name,
           tag: included ? "Included" : "Free add-on",
           detail: (plugin.category || "Plugin") + " / " + plugin.short + " engine: " + (plugin.engine || plugin.id),
+          href: "plugins/" + encodeURIComponent(plugin.id) + ".crate",
+          action: included ? "Download included .crate" : "Download .crate",
           sort: plugin.name
         });
       });
@@ -124,8 +128,19 @@
       "</header>",
       "<small>" + escapeHtml(row.detail) + "</small>",
       swatch || '<span class="tag">' + escapeHtml(row.tag) + "</span>",
+      row.href ? '<a class="market-action" href="' + escapeHtml(row.href) + '" download>' + escapeHtml(row.action || "Download") + "</a>" : "",
       "</article>"
     ].join("");
+  }
+
+  function wireReleaseDownloads() {
+    var base = String(window.ChannelCrateReleaseBase || "").replace(/\/+$/, "");
+    document.querySelectorAll("[data-release-asset]").forEach(function (link) {
+      var asset = link.getAttribute("data-release-asset");
+      if (!asset || !base) return;
+      link.href = base + "/" + encodeURIComponent(asset);
+      link.setAttribute("download", "");
+    });
   }
 
   function renderCrates() {

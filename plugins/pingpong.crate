@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.0",
+    "name": "Ping Pong Plugin",
+    "crateType": "plugin",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "plugin",
+      "iconPath": "assets/crate-icons/plugin.png",
+      "label": "Ping Pong",
+      "detail": "Delay add-on"
+    },
+    "summary": "Install Ping Pong as a ChannelCrate plugin."
+  },
+  "contents": {
+    "pluginApi": "channelcrate.plugin.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "plugins": [
+      {
+        "id": "pingpong",
+        "name": "Ping Pong",
+        "short": "PING",
+        "engine": "echo",
+        "category": "Delay",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ]
+  }
+}

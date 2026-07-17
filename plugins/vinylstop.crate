@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.0",
+    "name": "Vinyl Stop Plugin",
+    "crateType": "plugin",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "plugin",
+      "iconPath": "assets/crate-icons/plugin.png",
+      "label": "Vinyl Stop",
+      "detail": "DJ add-on"
+    },
+    "summary": "Install Vinyl Stop as a ChannelCrate plugin."
+  },
+  "contents": {
+    "pluginApi": "channelcrate.plugin.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "plugins": [
+      {
+        "id": "vinylstop",
+        "name": "Vinyl Stop",
+        "short": "STOP",
+        "engine": "filter",
+        "category": "DJ",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ]
+  }
+}

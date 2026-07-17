@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.0",
+    "name": "Club Low Plugin",
+    "crateType": "plugin",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "plugin",
+      "iconPath": "assets/crate-icons/plugin.png",
+      "label": "Club Low",
+      "detail": "Tone add-on"
+    },
+    "summary": "Install Club Low as a ChannelCrate plugin."
+  },
+  "contents": {
+    "pluginApi": "channelcrate.plugin.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "plugins": [
+      {
+        "id": "bass2",
+        "name": "Club Low",
+        "short": "CLUB",
+        "engine": "bass",
+        "category": "Tone",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ]
+  }
+}

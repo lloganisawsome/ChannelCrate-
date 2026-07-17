@@ -56,28 +56,38 @@
         <div class="section-head">
           <p class="eyebrow">Download app</p>
           <h2>Mac and Windows builds, one crate system.</h2>
-          <p>Grab the current packaged desktop prototype, then browse the free crate marketplace below.</p>
+          <p>App installers live on GitHub Releases so GitHub Pages stays light. Plugin `.crate` files download directly from this site.</p>
         </div>
         <div class="download-grid">
-          <a class="download-tile" href="downloads/ChannelCrate-0.1.0-arm64.dmg" download>
+          <a class="download-tile" href="#" data-release-asset="ChannelCrate-mac-apple-silicon.dmg">
             <img src="assets/crate-icons/project.png" alt="">
-            <span>Download for macOS</span>
-            <small>Apple Silicon DMG, 138 MB</small>
+            <span>macOS Apple Silicon</span>
+            <small>DMG from GitHub Releases</small>
           </a>
-          <a class="download-tile" href="downloads/ChannelCrate-0.1.0-arm64-mac.zip" download>
+          <a class="download-tile" href="#" data-release-asset="ChannelCrate-mac-apple-silicon.zip">
             <img src="assets/crate-icons/clip.png" alt="">
-            <span>macOS ZIP</span>
-            <small>Apple Silicon app ZIP, 137 MB</small>
+            <span>Apple Silicon ZIP</span>
+            <small>ZIP from GitHub Releases</small>
           </a>
-          <a class="download-tile" href="downloads/ChannelCrate-Setup-0.1.0.exe" download>
+          <a class="download-tile" href="#" data-release-asset="ChannelCrate-mac-intel.dmg">
+            <img src="assets/crate-icons/project.png" alt="">
+            <span>macOS Intel</span>
+            <small>Intel DMG from GitHub Releases</small>
+          </a>
+          <a class="download-tile" href="#" data-release-asset="ChannelCrate-mac-intel.zip">
+            <img src="assets/crate-icons/clip.png" alt="">
+            <span>Intel ZIP</span>
+            <small>Intel ZIP from GitHub Releases</small>
+          </a>
+          <a class="download-tile" href="#" data-release-asset="ChannelCrate-windows-setup.exe">
             <img src="assets/crate-icons/bundle.png" alt="">
             <span>Download for Windows</span>
-            <small>64-bit installer EXE, 118 MB</small>
+            <small>64-bit installer from GitHub Releases</small>
           </a>
-          <a class="download-tile" href="downloads/ChannelCrate-Portable-0.1.0.exe" download>
+          <a class="download-tile" href="#" data-release-asset="ChannelCrate-windows-portable.exe">
             <img src="assets/crate-icons/plugin.png" alt="">
             <span>Windows portable</span>
-            <small>64-bit portable EXE, 118 MB</small>
+            <small>64-bit portable from GitHub Releases</small>
           </a>
           <a class="download-tile" href="docs/crate-format.md">
             <img src="assets/crate-icons/general.png" alt="">
@@ -138,6 +148,7 @@
       <span>ChannelCrate market prototype. Static, free, and ready to expand.</span>
     </footer>
 
+    <script src="release-config.js"></script>
     <script src="src/catalog.js"></script>
     <script src="site.js"></script>
   </body>

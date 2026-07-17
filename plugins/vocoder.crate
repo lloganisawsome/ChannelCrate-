@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.0",
+    "name": "Vocoder Mask Plugin",
+    "crateType": "plugin",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "plugin",
+      "iconPath": "assets/crate-icons/plugin.png",
+      "label": "Vocoder Mask",
+      "detail": "Vocal add-on"
+    },
+    "summary": "Install Vocoder Mask as a ChannelCrate plugin."
+  },
+  "contents": {
+    "pluginApi": "channelcrate.plugin.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "plugins": [
+      {
+        "id": "vocoder",
+        "name": "Vocoder Mask",
+        "short": "VOCO",
+        "engine": "phone",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "format": "channelcrate.crate",
+    "formatVersion": 1,
+    "app": "ChannelCrate",
+    "appVersion": "0.1.0",
+    "name": "Vocal Doubler Plugin",
+    "crateType": "plugin",
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "preview": {
+      "iconType": "plugin",
+      "iconPath": "assets/crate-icons/plugin.png",
+      "label": "Vocal Doubler",
+      "detail": "Vocal add-on"
+    },
+    "summary": "Install Vocal Doubler as a ChannelCrate plugin."
+  },
+  "contents": {
+    "pluginApi": "channelcrate.plugin.v1",
+    "installMode": "add-on",
+    "communityStoreReady": true,
+    "plugins": [
+      {
+        "id": "doubler",
+        "name": "Vocal Doubler",
+        "short": "DBL",
+        "engine": "width",
+        "category": "Vocal",
+        "target": "deck",
+        "windowMode": "separate",
+        "state": {
+          "active": false,
+          "amount": 0
+        }
+      }
+    ]
+  }
+}

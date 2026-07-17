@@ -1,0 +1,655 @@
+{
+  "format": "channelcrate.market.plugins.v1",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "count": 81,
+  "plugins": [
+    {
+      "id": "tape",
+      "name": "Tape Warmth",
+      "category": "Color",
+      "short": "TAPE",
+      "engine": "tape",
+      "file": "plugins/tape.crate"
+    },
+    {
+      "id": "crush",
+      "name": "Bit Crusher",
+      "category": "Lo-Fi",
+      "short": "CRSH",
+      "engine": "crush",
+      "file": "plugins/crush.crate"
+    },
+    {
+      "id": "echo",
+      "name": "Sync Echo",
+      "category": "Delay",
+      "short": "ECHO",
+      "engine": "echo",
+      "file": "plugins/echo.crate"
+    },
+    {
+      "id": "space",
+      "name": "Room Verb",
+      "category": "Space",
+      "short": "ROOM",
+      "engine": "space",
+      "file": "plugins/space.crate"
+    },
+    {
+      "id": "width",
+      "name": "Stereo Wide",
+      "category": "Stereo",
+      "short": "WIDE",
+      "engine": "width",
+      "file": "plugins/width.crate"
+    },
+    {
+      "id": "pump",
+      "name": "Pump Gate",
+      "category": "Rhythm",
+      "short": "PUMP",
+      "engine": "pump",
+      "file": "plugins/pump.crate"
+    },
+    {
+      "id": "bass",
+      "name": "Bass Bloom",
+      "category": "Tone",
+      "short": "BASS",
+      "engine": "bass",
+      "file": "plugins/bass.crate"
+    },
+    {
+      "id": "air",
+      "name": "Air Lift",
+      "category": "Tone",
+      "short": "AIR",
+      "engine": "air",
+      "file": "plugins/air.crate"
+    },
+    {
+      "id": "filter",
+      "name": "DJ Filter",
+      "category": "Filter",
+      "short": "FILT",
+      "engine": "filter",
+      "file": "plugins/filter.crate"
+    },
+    {
+      "id": "phone",
+      "name": "Phone Box",
+      "category": "Filter",
+      "short": "PHON",
+      "engine": "phone",
+      "file": "plugins/phone.crate"
+    },
+    {
+      "id": "wobble",
+      "name": "Wobble LFO",
+      "category": "Motion",
+      "short": "WOB",
+      "engine": "wobble",
+      "file": "plugins/wobble.crate"
+    },
+    {
+      "id": "tremolo",
+      "name": "Tremolo",
+      "category": "Motion",
+      "short": "TREM",
+      "engine": "tremolo",
+      "file": "plugins/tremolo.crate"
+    },
+    {
+      "id": "phaser",
+      "name": "Phase Sweep",
+      "category": "Motion",
+      "short": "PHAS",
+      "engine": "phaser",
+      "file": "plugins/phaser.crate"
+    },
+    {
+      "id": "notch",
+      "name": "Notch Carve",
+      "category": "Filter",
+      "short": "NOTC",
+      "engine": "notch",
+      "file": "plugins/notch.crate"
+    },
+    {
+      "id": "duck",
+      "name": "Auto Duck",
+      "category": "Dynamics",
+      "short": "DUCK",
+      "engine": "duck",
+      "file": "plugins/duck.crate"
+    },
+    {
+      "id": "compressor",
+      "name": "Studio Compressor",
+      "category": "Dynamics",
+      "short": "COMP",
+      "engine": "compressor",
+      "file": "plugins/compressor.crate"
+    },
+    {
+      "id": "spark",
+      "name": "Transient Spark",
+      "category": "Dynamics",
+      "short": "SPRK",
+      "engine": "spark",
+      "file": "plugins/spark.crate"
+    },
+    {
+      "id": "chorus",
+      "name": "Wide Chorus",
+      "category": "Mod",
+      "short": "CHOR",
+      "engine": "chorus",
+      "file": "plugins/chorus.crate"
+    },
+    {
+      "id": "vinyl",
+      "name": "Vinyl Drift",
+      "category": "Lo-Fi",
+      "short": "VNYL",
+      "engine": "vinyl",
+      "file": "plugins/vinyl.crate"
+    },
+    {
+      "id": "gate",
+      "name": "Rhythm Gate",
+      "category": "Rhythm",
+      "short": "GATE",
+      "engine": "gate",
+      "file": "plugins/gate.crate"
+    },
+    {
+      "id": "visualizer",
+      "name": "Visualizer Tap",
+      "category": "Visual",
+      "short": "VIS",
+      "engine": "visualizer",
+      "file": "plugins/visualizer.crate"
+    },
+    {
+      "id": "glue",
+      "name": "Glue Comp",
+      "category": "Dynamics",
+      "short": "GLUE",
+      "engine": "pump",
+      "file": "plugins/glue.crate"
+    },
+    {
+      "id": "limiter",
+      "name": "Brick Limit",
+      "category": "Dynamics",
+      "short": "LIM",
+      "engine": "spark",
+      "file": "plugins/limiter.crate"
+    },
+    {
+      "id": "softclip",
+      "name": "Soft Clip",
+      "category": "Color",
+      "short": "CLIP",
+      "engine": "tape",
+      "file": "plugins/softclip.crate"
+    },
+    {
+      "id": "sub",
+      "name": "Sub Forge",
+      "category": "Tone",
+      "short": "SUB",
+      "engine": "bass",
+      "file": "plugins/sub.crate"
+    },
+    {
+      "id": "lowcut",
+      "name": "Low Cut",
+      "category": "Filter",
+      "short": "LCUT",
+      "engine": "phone",
+      "file": "plugins/lowcut.crate"
+    },
+    {
+      "id": "highcut",
+      "name": "High Cut",
+      "category": "Filter",
+      "short": "HCUT",
+      "engine": "filter",
+      "file": "plugins/highcut.crate"
+    },
+    {
+      "id": "formant",
+      "name": "Formant Tilt",
+      "category": "Vocal",
+      "short": "FORM",
+      "engine": "phone",
+      "file": "plugins/formant.crate"
+    },
+    {
+      "id": "resonator",
+      "name": "Box Resonator",
+      "category": "Filter",
+      "short": "RESO",
+      "engine": "phaser",
+      "file": "plugins/resonator.crate"
+    },
+    {
+      "id": "comb",
+      "name": "Comb Teeth",
+      "category": "Mod",
+      "short": "COMB",
+      "engine": "chorus",
+      "file": "plugins/comb.crate"
+    },
+    {
+      "id": "shimmer",
+      "name": "Shimmer Wash",
+      "category": "Space",
+      "short": "SHIM",
+      "engine": "space",
+      "file": "plugins/shimmer.crate"
+    },
+    {
+      "id": "reverseverb",
+      "name": "Reverse Verb",
+      "category": "Space",
+      "short": "RVRB",
+      "engine": "space",
+      "file": "plugins/reverseverb.crate"
+    },
+    {
+      "id": "slap",
+      "name": "Slap Delay",
+      "category": "Delay",
+      "short": "SLAP",
+      "engine": "echo",
+      "file": "plugins/slap.crate"
+    },
+    {
+      "id": "pingpong",
+      "name": "Ping Pong",
+      "category": "Delay",
+      "short": "PING",
+      "engine": "echo",
+      "file": "plugins/pingpong.crate"
+    },
+    {
+      "id": "granular",
+      "name": "Grain Spray",
+      "category": "Texture",
+      "short": "GRAN",
+      "engine": "crush",
+      "file": "plugins/granular.crate"
+    },
+    {
+      "id": "stutter",
+      "name": "Beat Stutter",
+      "category": "Rhythm",
+      "short": "STUT",
+      "engine": "gate",
+      "file": "plugins/stutter.crate"
+    },
+    {
+      "id": "repeater",
+      "name": "Micro Repeat",
+      "category": "Rhythm",
+      "short": "RPT",
+      "engine": "echo",
+      "file": "plugins/repeater.crate"
+    },
+    {
+      "id": "freezer",
+      "name": "Freeze Frame",
+      "category": "Texture",
+      "short": "FRZ",
+      "engine": "space",
+      "file": "plugins/freezer.crate"
+    },
+    {
+      "id": "riser",
+      "name": "Riser Sweep",
+      "category": "Motion",
+      "short": "RISE",
+      "engine": "wobble",
+      "file": "plugins/riser.crate"
+    },
+    {
+      "id": "downsampler",
+      "name": "Downsampler",
+      "category": "Lo-Fi",
+      "short": "DSMP",
+      "engine": "crush",
+      "file": "plugins/downsampler.crate"
+    },
+    {
+      "id": "cassette",
+      "name": "Cassette Deck",
+      "category": "Lo-Fi",
+      "short": "CASS",
+      "engine": "vinyl",
+      "file": "plugins/cassette.crate"
+    },
+    {
+      "id": "wow",
+      "name": "Wow Drift",
+      "category": "Lo-Fi",
+      "short": "WOW",
+      "engine": "vinyl",
+      "file": "plugins/wow.crate"
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter Trim",
+      "category": "Lo-Fi",
+      "short": "FLUT",
+      "engine": "chorus",
+      "file": "plugins/flutter.crate"
+    },
+    {
+      "id": "noise",
+      "name": "Noise Floor",
+      "category": "Texture",
+      "short": "NOIS",
+      "engine": "vinyl",
+      "file": "plugins/noise.crate"
+    },
+    {
+      "id": "vinylstop",
+      "name": "Vinyl Stop",
+      "category": "DJ",
+      "short": "STOP",
+      "engine": "filter",
+      "file": "plugins/vinylstop.crate"
+    },
+    {
+      "id": "sidechain",
+      "name": "Sidechain Pump",
+      "category": "Dynamics",
+      "short": "SIDE",
+      "engine": "pump",
+      "file": "plugins/sidechain.crate"
+    },
+    {
+      "id": "transient",
+      "name": "Transient Pop",
+      "category": "Dynamics",
+      "short": "TRAN",
+      "engine": "spark",
+      "file": "plugins/transient.crate"
+    },
+    {
+      "id": "stereoflip",
+      "name": "Stereo Flip",
+      "category": "Stereo",
+      "short": "FLIP",
+      "engine": "width",
+      "file": "plugins/stereoflip.crate"
+    },
+    {
+      "id": "mono",
+      "name": "Mono Maker",
+      "category": "Stereo",
+      "short": "MONO",
+      "engine": "phone",
+      "file": "plugins/mono.crate"
+    },
+    {
+      "id": "widen2",
+      "name": "Mega Width",
+      "category": "Stereo",
+      "short": "MWID",
+      "engine": "width",
+      "file": "plugins/widen2.crate"
+    },
+    {
+      "id": "haas",
+      "name": "Haas Shift",
+      "category": "Stereo",
+      "short": "HAAS",
+      "engine": "width",
+      "file": "plugins/haas.crate"
+    },
+    {
+      "id": "autopan",
+      "name": "Auto Pan",
+      "category": "Motion",
+      "short": "PAN",
+      "engine": "tremolo",
+      "file": "plugins/autopan.crate"
+    },
+    {
+      "id": "trem2",
+      "name": "Chop Trem",
+      "category": "Motion",
+      "short": "CHOP",
+      "engine": "gate",
+      "file": "plugins/trem2.crate"
+    },
+    {
+      "id": "ringmod",
+      "name": "Ring Mod",
+      "category": "Mod",
+      "short": "RING",
+      "engine": "crush",
+      "file": "plugins/ringmod.crate"
+    },
+    {
+      "id": "freqshift",
+      "name": "Freq Shift",
+      "category": "Mod",
+      "short": "FSFT",
+      "engine": "phaser",
+      "file": "plugins/freqshift.crate"
+    },
+    {
+      "id": "vocoder",
+      "name": "Vocoder Mask",
+      "category": "Vocal",
+      "short": "VOCO",
+      "engine": "phone",
+      "file": "plugins/vocoder.crate"
+    },
+    {
+      "id": "robot",
+      "name": "Robot Voice",
+      "category": "Vocal",
+      "short": "ROBO",
+      "engine": "crush",
+      "file": "plugins/robot.crate"
+    },
+    {
+      "id": "chorus2",
+      "name": "String Chorus",
+      "category": "Mod",
+      "short": "STRG",
+      "engine": "chorus",
+      "file": "plugins/chorus2.crate"
+    },
+    {
+      "id": "ensemble",
+      "name": "Ensemble Stack",
+      "category": "Mod",
+      "short": "ENS",
+      "engine": "chorus",
+      "file": "plugins/ensemble.crate"
+    },
+    {
+      "id": "flanger",
+      "name": "Jet Flanger",
+      "category": "Mod",
+      "short": "JET",
+      "engine": "phaser",
+      "file": "plugins/flanger.crate"
+    },
+    {
+      "id": "doubler",
+      "name": "Vocal Doubler",
+      "category": "Vocal",
+      "short": "DBL",
+      "engine": "width",
+      "file": "plugins/doubler.crate"
+    },
+    {
+      "id": "exciter",
+      "name": "Top Exciter",
+      "category": "Tone",
+      "short": "EXCT",
+      "engine": "air",
+      "file": "plugins/exciter.crate"
+    },
+    {
+      "id": "deesser",
+      "name": "De-Esser",
+      "category": "Vocal",
+      "short": "DESS",
+      "engine": "notch",
+      "file": "plugins/deesser.crate"
+    },
+    {
+      "id": "tilt",
+      "name": "Tilt EQ",
+      "category": "Tone",
+      "short": "TILT",
+      "engine": "spark",
+      "file": "plugins/tilt.crate"
+    },
+    {
+      "id": "mudcut",
+      "name": "Mud Cutter",
+      "category": "Tone",
+      "short": "MUD",
+      "engine": "notch",
+      "file": "plugins/mudcut.crate"
+    },
+    {
+      "id": "bass2",
+      "name": "Club Low",
+      "category": "Tone",
+      "short": "CLUB",
+      "engine": "bass",
+      "file": "plugins/bass2.crate"
+    },
+    {
+      "id": "kicktight",
+      "name": "Kick Tight",
+      "category": "Drums",
+      "short": "KICK",
+      "engine": "spark",
+      "file": "plugins/kicktight.crate"
+    },
+    {
+      "id": "snarepop",
+      "name": "Snare Pop",
+      "category": "Drums",
+      "short": "SNAR",
+      "engine": "spark",
+      "file": "plugins/snarepop.crate"
+    },
+    {
+      "id": "clapwide",
+      "name": "Clap Wide",
+      "category": "Drums",
+      "short": "CLAP",
+      "engine": "width",
+      "file": "plugins/clapwide.crate"
+    },
+    {
+      "id": "lofiglow",
+      "name": "Lo-Fi Glow",
+      "category": "Lo-Fi",
+      "short": "GLOW",
+      "engine": "tape",
+      "file": "plugins/lofiglow.crate"
+    },
+    {
+      "id": "dirt",
+      "name": "Dirt Box",
+      "category": "Color",
+      "short": "DIRT",
+      "engine": "tape",
+      "file": "plugins/dirt.crate"
+    },
+    {
+      "id": "fuzz",
+      "name": "Pixel Fuzz",
+      "category": "Color",
+      "short": "FUZZ",
+      "engine": "crush",
+      "file": "plugins/fuzz.crate"
+    },
+    {
+      "id": "overdrive",
+      "name": "Overdrive",
+      "category": "Color",
+      "short": "ODRV",
+      "engine": "tape",
+      "file": "plugins/overdrive.crate"
+    },
+    {
+      "id": "tube",
+      "name": "Tube Heat",
+      "category": "Color",
+      "short": "TUBE",
+      "engine": "tape",
+      "file": "plugins/tube.crate"
+    },
+    {
+      "id": "slicer",
+      "name": "Step Slicer",
+      "category": "Rhythm",
+      "short": "SLIC",
+      "engine": "gate",
+      "file": "plugins/slicer.crate"
+    },
+    {
+      "id": "euclid",
+      "name": "Euclid Gate",
+      "category": "Rhythm",
+      "short": "EUCL",
+      "engine": "gate",
+      "file": "plugins/euclid.crate"
+    },
+    {
+      "id": "arpgate",
+      "name": "Arp Gate",
+      "category": "Rhythm",
+      "short": "ARP",
+      "engine": "tremolo",
+      "file": "plugins/arpgate.crate"
+    },
+    {
+      "id": "meterbridge",
+      "name": "Meter Bridge",
+      "category": "Visual",
+      "short": "MTR",
+      "engine": "visualizer",
+      "file": "plugins/meterbridge.crate"
+    },
+    {
+      "id": "vectorscope",
+      "name": "Vectorscope",
+      "category": "Visual",
+      "short": "VECT",
+      "engine": "visualizer",
+      "file": "plugins/vectorscope.crate"
+    },
+    {
+      "id": "spectrograph",
+      "name": "Spectrograph",
+      "category": "Visual",
+      "short": "SPEC",
+      "engine": "visualizer",
+      "file": "plugins/spectrograph.crate"
+    },
+    {
+      "id": "beatlight",
+      "name": "Beat Light",
+      "category": "Visual",
+      "short": "LITE",
+      "engine": "visualizer",
+      "file": "plugins/beatlight.crate"
+    }
+  ]
+}

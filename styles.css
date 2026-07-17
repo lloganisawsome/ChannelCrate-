@@ -128,7 +128,7 @@ input {
   z-index: -1;
   width: min(620px, 44vw);
   aspect-ratio: 1;
-  background: url("../assets/crate-icons/general.png") center / contain no-repeat;
+  background: url("assets/crate-icons/general.png") center / contain no-repeat;
   opacity: 0.72;
   transform: translateY(-50%);
 }
@@ -398,6 +398,22 @@ button.is-active {
 
 .theme-swatch span {
   border-radius: 3px;
+}
+
+.market-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--lime);
+  border-radius: 6px;
+  color: #14180f;
+  background: var(--lime);
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .crate-grid {
