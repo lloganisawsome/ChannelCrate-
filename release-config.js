@@ -1,1 +1,1 @@
-window.ChannelCrateReleaseBase = "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO/releases/latest/download";
+window.ChannelCrateReleaseBase = "https://github.com/lloganisawsome/ChannelCrate-/releases/download/Release";
