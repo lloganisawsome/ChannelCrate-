@@ -4,9 +4,11 @@
   var catalog = window.ChannelCrateCatalog || {};
   var plugins = catalog.marketplacePluginDefs || catalog.pluginDefs || [];
   var themes = catalog.marketplaceThemeDefs || catalog.themeDefs || [];
+  var addons = catalog.marketplaceAddonDefs || catalog.addonDefs || [];
   var bundles = catalog.marketplaceBundleDefs || [];
   var installedPluginIds = catalog.installedPluginIds || (catalog.pluginDefs || []).map(function (plugin) { return plugin.id; });
   var installedThemeIds = catalog.installedThemeIds || (catalog.themeDefs || []).map(function (theme) { return theme.id; });
+  var installedAddonIds = catalog.installedAddonIds || (catalog.addonDefs || []).map(function (addon) { return addon.id; });
   var crateTypes = catalog.crateTypes || [];
   var activeFilter = "all";
   var search = "";
@@ -50,11 +52,13 @@
     crateGrid: document.getElementById("crateGrid"),
     search: document.getElementById("marketSearch"),
     pluginCount: document.getElementById("pluginCount"),
-    themeCount: document.getElementById("themeCount")
+    themeCount: document.getElementById("themeCount"),
+    addonCount: document.getElementById("addonCount")
   };
 
   if (els.pluginCount) els.pluginCount.textContent = String(plugins.length);
   if (els.themeCount) els.themeCount.textContent = String(themes.length);
+  if (els.addonCount) els.addonCount.textContent = String(addons.length);
   wireReleaseDownloads();
 
   document.querySelectorAll("[data-market-filter]").forEach(function (button) {
@@ -107,6 +111,21 @@
         });
       });
     }
+    if (activeFilter === "all" || activeFilter === "addon") {
+      addons.forEach(function (addon) {
+        var included = installedAddonIds.indexOf(addon.id) >= 0;
+        rows.push({
+          type: "addon",
+          id: addon.id,
+          title: addon.name,
+          tag: included ? "Installed" : "Free add-on",
+          detail: addon.detail || ((addon.category || "Add-on") + " mode expansion"),
+          href: addon.href || ("addons/" + encodeURIComponent(addon.id) + ".crate"),
+          action: included ? "Download installed add-on" : "Download add-on crate",
+          sort: addon.name
+        });
+      });
+    }
     rows = rows.filter(function (row) {
       if (!search) return true;
       return [row.title, row.tag, row.detail].join(" ").toLowerCase().indexOf(search) !== -1;
@@ -137,6 +156,9 @@
       swatch = '<div class="theme-swatch" aria-hidden="true">' + colors.map(function (color) {
         return '<span style="background:' + escapeHtml(color) + '"></span>';
       }).join("") + "</div>";
+    }
+    if (row.type === "addon") {
+      swatch = '<img class="market-type-icon" src="assets/crate-icons/addon.png" alt="">';
     }
     return [
       '<article class="market-card ' + escapeHtml(row.type) + '">',

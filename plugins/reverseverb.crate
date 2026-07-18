@@ -3,7 +3,7 @@
     "format": "channelcrate.crate",
     "formatVersion": 1,
     "app": "ChannelCrate",
-    "appVersion": "0.1.0",
+    "appVersion": "0.1.3",
     "name": "Reverse Verb Plugin",
     "crateType": "plugin",
     "createdAt": "2026-07-17T00:00:00.000Z",

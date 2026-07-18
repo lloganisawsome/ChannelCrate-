@@ -25,7 +25,7 @@
         <div class="hero-copy">
           <p class="eyebrow">Desktop mix lab, crate store, plugin playground.</p>
           <h1>ChannelCrate</h1>
-          <p class="hero-text">A retro modular music player for local files, provider decks, waveform prep, plugin windows, playlists, clip crates, and a free community marketplace.</p>
+          <p class="hero-text">A retro modular music player for local files, provider decks, waveform prep, plugin windows, playlists, clip crates, Studio add-ons, and a free community marketplace.</p>
           <div class="hero-actions">
             <a class="button primary" href="#download">Download app</a>
             <a class="button" href="#market">Browse market</a>
@@ -44,7 +44,11 @@
           <span>market themes, 5 included</span>
         </div>
         <div>
-          <strong>8</strong>
+          <strong id="addonCount">1</strong>
+          <span>installable add-on mode</span>
+        </div>
+        <div>
+          <strong>9</strong>
           <span>crate types</span>
         </div>
         <div>
@@ -83,7 +87,7 @@
           <a class="download-tile" href="docs/crate-format.md">
             <img src="assets/crate-icons/general.png" alt="">
             <span>.crate format</span>
-            <small>Project, plugin, preset, clip, playlist, bundle</small>
+            <small>Project, plugin, add-on, preset, clip, playlist, bundle</small>
           </a>
           <a class="download-tile" href="docs/update-agent.md">
             <img src="assets/crate-icons/bundle.png" alt="">
@@ -102,18 +106,19 @@
       <section class="section market-section" id="market">
         <div class="section-head">
           <p class="eyebrow">Crate Market</p>
-          <h2>Free plugins, store-installed themes, and future community crates.</h2>
-          <p>The marketplace is static here, but it is shaped like the future ChannelCrate site: search, categories, theme previews, and clear export rules.</p>
+          <h2>Free plugins, add-ons, store-installed themes, and future community crates.</h2>
+          <p>The marketplace is static here, but it is shaped like the future ChannelCrate site: search, categories, theme previews, add-on modes, and clear export rules.</p>
         </div>
         <div class="bundle-shelf" id="bundleShelf"></div>
         <div class="market-toolbar">
           <label>
             <span>Search market</span>
-            <input id="marketSearch" type="search" placeholder="filter plugins or themes">
+            <input id="marketSearch" type="search" placeholder="filter plugins, themes, or add-ons">
           </label>
           <div class="tab-row" role="tablist" aria-label="Marketplace filters">
             <button class="is-active" data-market-filter="all" type="button">All</button>
             <button data-market-filter="plugin" type="button">Plugins</button>
+            <button data-market-filter="addon" type="button">Add-ons</button>
             <button data-market-filter="theme" type="button">Themes</button>
           </div>
         </div>

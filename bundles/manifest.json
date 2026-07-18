@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T20:05:04.059Z",
+  "generatedAt": "2026-07-18T15:35:49.014Z",
   "packs": [
     {
       "id": "all-plugins",
@@ -7,6 +7,7 @@
       "file": "all-plugins.crate",
       "pluginCount": 81,
       "themeCount": 0,
+      "addonCount": 0,
       "summary": "Install every current ChannelCrate marketplace plugin."
     },
     {
@@ -15,7 +16,17 @@
       "file": "all-themes.crate",
       "pluginCount": 0,
       "themeCount": 30,
+      "addonCount": 0,
       "summary": "Install every current ChannelCrate marketplace theme."
+    },
+    {
+      "id": "all-addons",
+      "name": "All Add-ons Crate",
+      "file": "all-addons.crate",
+      "pluginCount": 0,
+      "themeCount": 0,
+      "addonCount": 1,
+      "summary": "Install every current ChannelCrate add-on mode."
     },
     {
       "id": "everything",
@@ -23,7 +34,8 @@
       "file": "everything.crate",
       "pluginCount": 81,
       "themeCount": 30,
-      "summary": "Install every current ChannelCrate marketplace plugin and theme."
+      "addonCount": 1,
+      "summary": "Install every current ChannelCrate marketplace plugin, theme, and add-on."
     },
     {
       "id": "lofi-color-lab",
@@ -31,6 +43,7 @@
       "file": "lofi-color-lab.crate",
       "pluginCount": 16,
       "themeCount": 0,
+      "addonCount": 0,
       "summary": "Tape, dust, drive, grain, bit-crush, and texture effects."
     },
     {
@@ -39,6 +52,7 @@
       "file": "dynamics-master-pack.crate",
       "pluginCount": 17,
       "themeCount": 0,
+      "addonCount": 0,
       "summary": "Compressors, transient tools, punch shapers, low-end and tone helpers."
     },
     {
@@ -47,6 +61,7 @@
       "file": "vocal-studio-pack.crate",
       "pluginCount": 10,
       "themeCount": 0,
+      "addonCount": 0,
       "summary": "Voice shaping, de-essing, width, doubling, and formant tools."
     },
     {
@@ -55,6 +70,7 @@
       "file": "motion-delay-pack.crate",
       "pluginCount": 26,
       "themeCount": 0,
+      "addonCount": 0,
       "summary": "Echoes, verbs, gates, modulation, movement, and performance rhythm effects."
     },
     {
@@ -63,6 +79,7 @@
       "file": "visual-metering-pack.crate",
       "pluginCount": 5,
       "themeCount": 0,
+      "addonCount": 0,
       "summary": "Visualizer Tap, Meter Bridge, Vectorscope, Spectrograph, and Beat Light."
     }
   ]

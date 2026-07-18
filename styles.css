@@ -213,7 +213,7 @@ button.is-active {
 
 .stats-band {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1px;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -453,6 +453,10 @@ button.is-active {
   border-color: #5b4a77;
 }
 
+.market-card.addon {
+  border-color: #437273;
+}
+
 .market-card header {
   display: flex;
   align-items: center;
@@ -484,6 +488,12 @@ button.is-active {
 
 .theme-swatch span {
   border-radius: 3px;
+}
+
+.market-type-icon {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
 }
 
 .market-action {

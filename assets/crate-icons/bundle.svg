@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Bundle crate">
+  <rect width="512" height="512" rx="70" fill="#18120e"/>
+  <path d="M256 28 462 138v236L256 484 50 374V138Z" fill="#b7652e"/>
+  <path d="M256 28 462 138 256 248 50 138Z" fill="#d1813c"/>
+  <path d="M50 138 256 248v236L50 374Z" fill="#9d4e27"/>
+  <path d="M462 138 256 248v236l206-110Z" fill="#7d3729"/>
+  <path d="M148 210 256 152l108 58-108 58Z" fill="#c8f36c" stroke="#101615" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M148 210v88l108 58v-88Z" fill="#73d6d2" stroke="#101615" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M364 210v88l-108 58v-88Z" fill="#e16aa9" stroke="#101615" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M184 320 256 282l72 38-72 38Z" fill="#f2b84b" stroke="#101615" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M184 320v50l72 38v-50Z" fill="#8bd35f" stroke="#101615" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M328 320v50l-72 38v-50Z" fill="#7aa3ff" stroke="#101615" stroke-width="12" stroke-linejoin="round"/>
+</svg>

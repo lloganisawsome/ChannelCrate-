@@ -1,6 +1,6 @@
 # ChannelCrate `.crate` Format
 
-`.crate` is the shared ChannelCrate package extension for projects, plugins, themes, presets, clips, playlists, bundles, and general packages. Theme crates install skins from Crate Market, but the app does not export themes.
+`.crate` is the shared ChannelCrate package extension for projects, plugins, add-ons, themes, presets, clips, playlists, bundles, and general packages. Theme crates install skins from Crate Market, but the app does not export themes.
 
 The current implementation stores crates as readable JSON so creators can inspect and share them easily. The same manifest shape can later move inside a zipped archive without changing the user-facing verbs.
 
@@ -14,7 +14,7 @@ Every crate starts with:
     "format": "channelcrate.crate",
     "formatVersion": 1,
     "app": "ChannelCrate",
-    "appVersion": "0.1.1",
+    "appVersion": "0.1.3",
     "name": "Quick Crate",
     "crateType": "project",
     "createdAt": "2026-07-16T00:00:00.000Z",
@@ -34,6 +34,7 @@ Every crate starts with:
 
 - `general`: brand notes, stats, or mixed metadata.
 - `plugin`: plugin definitions and rack states for the current 81-effect catalog.
+- `addon`: installable app expansion modes such as ChannelCrate Studio.
 - `project`: library, decks, mixer, provider links, clips, and playlists.
 - `theme`: store-installed skins and visual preferences. This type is not exportable from the app.
 - `preset`: focused deck EQ, tempo, transport controls, and plugin states.
@@ -41,7 +42,7 @@ Every crate starts with:
 - `playlist`: active playlist and its referenced local/provider/clip items.
 - `bundle`: multiple crate categories together.
 
-Marketplace bundles live in `site/bundles/`. Current bundles include all plugins, all themes, everything, and themed plugin packs such as Lo-Fi Color Lab, Dynamics Master Pack, Vocal Studio Pack, Motion + Delay Pack, and Visual Metering Pack.
+Marketplace bundles live in `site/bundles/`. Current bundles include all plugins, all themes, all add-ons, everything, and themed plugin packs such as Lo-Fi Color Lab, Dynamics Master Pack, Vocal Studio Pack, Motion + Delay Pack, and Visual Metering Pack.
 
 ## Type Icons
 
@@ -49,6 +50,7 @@ Each crate stores `manifest.preview.iconType`. ChannelCrate maps that value to t
 
 - `general.png`
 - `plugin.png`
+- `addon.png`
 - `project.png`
 - `theme.png`
 - `preset.png`

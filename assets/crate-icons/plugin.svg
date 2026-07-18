@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Plugin crate">
+  <rect width="512" height="512" rx="70" fill="#21150f"/>
+  <path d="M256 28 462 138v236L256 484 50 374V138Z" fill="#b7652e"/>
+  <path d="M256 28 462 138 256 248 50 138Z" fill="#d1813c"/>
+  <path d="M50 138 256 248v236L50 374Z" fill="#9d4e27"/>
+  <path d="M462 138 256 248v236l206-110Z" fill="#7d3729"/>
+  <path d="M112 174 256 98l144 76-144 76Z" fill="#ef9b4b" opacity=".55"/>
+  <path d="M112 340V192l144 76v148Z" fill="none" stroke="#5b231d" stroke-width="18"/>
+  <path d="M400 192v148l-144 76V268Z" fill="none" stroke="#5b231d" stroke-width="18"/>
+  <path d="M178 216h72v-26c0-17 14-31 31-31s31 14 31 31v26h22c17 0 31 14 31 31s-14 31-31 31h-22v72h-72v-22c0-17-14-31-31-31s-31 14-31 31v22h-72v-72h25c17 0 31-14 31-31s-14-31-31-31h-25v-72h72Z" fill="#101615" stroke="#c8f36c" stroke-width="16" stroke-linejoin="round"/>
+</svg>

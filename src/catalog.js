@@ -128,6 +128,21 @@
     return installedThemeIds.indexOf(theme.id) >= 0;
   });
 
+  var marketplaceAddonDefs = [
+    {
+      id: "channelcrate-studio",
+      name: "ChannelCrate Studio",
+      short: "STDO",
+      category: "DAW",
+      href: "addons/channelcrate-studio.crate",
+      icon: "assets/crate-icons/addon.png",
+      mode: "studio",
+      detail: "Adds Studio Mode: piano roll, audio tracks, channel rack, arrangement, mixer, and record takes."
+    }
+  ];
+  var installedAddonIds = [];
+  var addonDefs = [];
+
   function countPlugins(categories) {
     return marketplacePluginDefs.filter(function (plugin) {
       return categories.indexOf(plugin.category) >= 0;
@@ -137,7 +152,8 @@
   var marketplaceBundleDefs = [
     { id: "all-plugins", name: "All Plugins Crate", href: "bundles/all-plugins.crate", icon: "assets/crate-icons/plugin.png", tag: marketplacePluginDefs.length + " plugins", detail: "Every current ChannelCrate market plugin in one install crate." },
     { id: "all-themes", name: "All Themes Crate", href: "bundles/all-themes.crate", icon: "assets/crate-icons/theme.png", tag: marketplaceThemeDefs.length + " themes", detail: "Every current ChannelCrate market skin in one install crate." },
-    { id: "everything", name: "Everything Crate", href: "bundles/everything.crate", icon: "assets/crate-icons/bundle.png", tag: marketplacePluginDefs.length + marketplaceThemeDefs.length + " items", detail: "All plugins and all themes bundled together." },
+    { id: "all-addons", name: "All Add-ons Crate", href: "bundles/all-addons.crate", icon: "assets/crate-icons/addon.png", tag: marketplaceAddonDefs.length + " add-on", detail: "Every current ChannelCrate mode add-on, starting with Studio." },
+    { id: "everything", name: "Everything Crate", href: "bundles/everything.crate", icon: "assets/crate-icons/bundle.png", tag: (marketplacePluginDefs.length + marketplaceThemeDefs.length + marketplaceAddonDefs.length) + " items", detail: "All plugins, all themes, and all add-ons bundled together." },
     { id: "lofi-color-lab", name: "Lo-Fi Color Lab", href: "bundles/lofi-color-lab.crate", icon: "assets/crate-icons/plugin.png", tag: countPlugins(["Lo-Fi", "Color", "Texture"]) + " plugins", detail: "Tape, dust, drive, grain, bit-crush, and texture effects." },
     { id: "dynamics-master-pack", name: "Dynamics Master Pack", href: "bundles/dynamics-master-pack.crate", icon: "assets/crate-icons/preset.png", tag: countPlugins(["Dynamics", "Drums", "Tone"]) + " plugins", detail: "Compressors, transient tools, punch shapers, low-end and tone helpers." },
     { id: "vocal-studio-pack", name: "Vocal Studio Pack", href: "bundles/vocal-studio-pack.crate", icon: "assets/crate-icons/clip.png", tag: countPlugins(["Vocal", "Stereo"]) + " plugins", detail: "Voice shaping, de-essing, width, doubling, and formant tools." },
@@ -153,6 +169,7 @@
     { id: "preset", label: "Preset", icon: "assets/crate-icons/preset.png", detail: "focused deck EQ, tempo, and plugin settings", exportable: true },
     { id: "clip", label: "Clip", icon: "assets/crate-icons/clip.png", detail: "captured audio clip with waveform data", exportable: true },
     { id: "playlist", label: "Playlist", icon: "assets/crate-icons/playlist.png", detail: "ordered songs, provider links, and clips", exportable: true },
+    { id: "addon", label: "Add-on", icon: "assets/crate-icons/addon.png", detail: "installed app modes and expansion surfaces", exportable: true },
     { id: "bundle", label: "Bundle", icon: "assets/crate-icons/bundle.png", detail: "multiple crate things in one package", exportable: true }
   ];
 
@@ -163,6 +180,9 @@
     themeDefs: themeDefs,
     marketplaceThemeDefs: marketplaceThemeDefs,
     installedThemeIds: installedThemeIds,
+    addonDefs: addonDefs,
+    marketplaceAddonDefs: marketplaceAddonDefs,
+    installedAddonIds: installedAddonIds,
     marketplaceBundleDefs: marketplaceBundleDefs,
     crateTypes: crateTypes
   };
